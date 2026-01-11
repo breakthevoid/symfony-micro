@@ -11,12 +11,12 @@ curl -sS https://get.symfony.com/cli/installer | bash
 
 Экспортировать путь в файл конфигурации оболочки командной строки (.bash, .zsh, ..)
 
-export PATH="$HOME/.symfony/bin:$PATH"
+export PATH="$HOME/.symfony5/bin:$PATH"
 
 
 #### 2.  Установить необходимые компоненты Symfony
 
-//composer require symfony/framework-bundle symfony/runtime
+//composer require symfony/framework-bundle symfony/runtime symfony/twig-bundle symfony/yaml
 composer update
 
 
